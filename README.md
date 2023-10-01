@@ -9,10 +9,10 @@
 $ apt update && apt upgrade
 $ pkg install -y root-repo
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
-$ git clone https://github.com/Mahfuz-THBD/Wifi_Hack
-$ cd Wifi_Hack
-$ chmod +x birihack.py
-$ sudo python birihack.py --help
+$ git clone https://github.com/cfsakil/Wireless_Payload
+$ cd Wireless_Payload
+$ chmod +x attack.py
+$ sudo python attack.py --help
 ```
 
 #### Example : `sudo python attack.py -i wlan0 -K`
